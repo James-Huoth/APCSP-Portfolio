@@ -1,0 +1,45 @@
+
+#info {
+	position: absolute;
+	top: 5000px;
+  font-family: "Chivo";
+  font-size:50px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+ color:#ffffff;
+}
+#text {
+	position: absolute;
+top: 0px;
+  font-family: "Chivo";
+  font-size:50px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+ color:#ffffff;
+}
+#desctext {
+	position: absolute;
+top: 0px;
+  font-family: "Chivo";
+  font-size:15px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+ color:#ffffff;
+}
+#background {
+	position: absolute;
+	top: 5000px;
+  font-family: "Chivo";
+  font-size:50px;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+  background-color:#000000;
+}
