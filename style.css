@@ -21,11 +21,22 @@ top: 0px;
 	display:block;
  color:#ffffff;
 }
+#headertext {
+	position: absolute;
+top: 0px;
+  font-family: "Chivo";
+      font-size: 5vw;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	display:block;
+ color:#ffffff;
+}
 #desctext {
 	position: absolute;
 top: 0px;
   font-family: "Chivo";
-  font-size:15px;
+      font-size: 2vw;
 	width: 100%;
 	text-align: center;
 	z-index: 100;
