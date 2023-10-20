@@ -124,6 +124,42 @@ geometry13.rotateY(-0.005)
 
 
 animate();
+
+var image = document.querySelector("div2")
+let bool = true;
+image.addEventListener("mousedown",(event) => {
+  if (bool == true) {
+    bool = false
+  image.className = "p2"
+    image.style.left = "10%"
+  var text1 = document.querySelector("p")
+    text1.style = "position: absolute; top:265% ; width:40% ; left : 30%"
+text1.textContent = "This is the javascript code that we used."
+    var text2 = document.querySelector("p2")
+     text2.style = "position: absolute; top:310% ; width 60% ; left : 0%"
+  text2.textContent = "We used if statements to act like binary search in this project. We repeated if statements like the photo above. We also used booleans to determine if the person answered yes or no, to decide which question to ask next."
+    var text3 = document.querySelector("p3")
+    text3.style = "position: absolute; top:340% ; width:100%"
+    text3.textContent = "We used collaborative programming during this project. It is when a person is writing and the other is checking the code and telling steps. This used a binary search method by cutting the amount of teams left in half until we could guess the team accurately."
+  AOS.init()
+    
+  } else {
+    bool = true
+     image.style.left = "22.5%"
+      image.className = "p1"
+      var text1 = document.querySelector("p")
+     text1.style = "position: absolute; top:300% ; width:20% ; "
+    text1.textContent = "These are the images of the teams"
+        var text2 = document.querySelector("p2")
+     text2.style = "position: absolute; top:330% ; width:20% ;"
+      text2.textContent = "Click image to show code"
+    var text3 = document.querySelector("p3")
+    text3.style = "position: absolute; top:370% ; width:100%"
+    text3.textContent = "This is the prompt box, which is where the player interacts with the website."
+      AOS.init()
+  }
+
+})
 // Our stylesheet.
 import './style.css'
 
