@@ -32,6 +32,42 @@ top: 0px;
 	display:block;
  color:#ffffff;
 }
+#headertext2 {
+  position: absolute;
+top: 0px;
+  
+  font-family: "Chivo";
+      font-size: 5vw;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+ color:#ffffff;
+}
+#headertext4 {
+  position: absolute;
+top: 0px;
+
+  font-family: "Chivo";
+      font-size: 5vw;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+ color:#ffffff;
+}
+#headertext3 {
+  position: absolute;
+top: 0px;
+
+  font-family: "Chivo";
+      font-size: 4vw;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+ color:#ffffff;
+}
 #subheadertext {
   position: absolute;
 top: 0px;
@@ -91,6 +127,37 @@ left: 12;
   position: absolute;
   margin: auto;
 }
+.p3{
+  position: absolute; top:275%; width: 100%;
+  content:" ";
+  background-image: url('images/ScreenshotPortfolio.png');
+left: 50;
+  width: 56vw;
+  height: 40vw;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+}
+.p3t{
+    position: absolute;
+    /* Center on the screen (help from ChatGPT) */  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /* End centering code */
+    width: 60vw;
+    height: 45vw;
+    background-color: rgba(0, 0, 0,1);
+    color: #ffffff;
+  /* Help from Hinkle */
+  box-sizing: border-box;
+  padding: 3vw;
+   font-size: 2vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
 .p1t{
     position: absolute;
     /* Center on the screen (help from ChatGPT) */  
@@ -109,6 +176,27 @@ left: 12;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
+.p2t{
+    position: absolute;
+    /* Center on the screen (help from ChatGPT) */  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /* End centering code */
+    width: 80vw;
+    height: 15vw;
+    background-color: rgba(0, 0, 0,1);
+    color: #ffffff;
+  /* Help from Hinkle */
+  box-sizing: border-box;
+  padding: 3vw;
+   font-size: 2vw;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
 .p1:hover div.p1t{
+ opacity: 2;
+}
+.p2:hover div.p2t{
  opacity: 2;
 }
