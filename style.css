@@ -61,7 +61,19 @@ top: 0px;
 top: 0px;
 
   font-family: "Chivo";
-      font-size: 4vw;
+      font-size: 3vw;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+ color:#ffffff;
+}
+#headertext5 {
+  position: absolute;
+top: 0px;
+
+  font-family: "Chivo";
+      font-size: 5vw;
   width: 100%;
   text-align: center;
   z-index: 100;
