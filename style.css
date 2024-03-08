@@ -92,6 +92,18 @@ top: 0px;
   display:block;
  color:#ffffff;
 }
+#headertext7 {
+  position: absolute;
+top: 0px;
+
+  font-family: "Chivo";
+      font-size: 5vw;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display:block;
+ color:#ffffff;
+}
 #subheadertext {
   position: absolute;
 top: 0px;
@@ -183,6 +195,19 @@ left: 20;
   background-image: url('images/FilterProgram.png');
 left: 20;
   width: 50vw;
+  height: 55vw;
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin: auto;
+}
+.p6{
+  position: absolute; top:275%; width: 100%;
+  content:" ";
+  background-image: url('images/RoadMap.png');
+left: 30;
+  width: 55vw;
   height: 55vw;
   display: block;
   background-size: cover;
